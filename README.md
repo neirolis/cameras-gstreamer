@@ -11,7 +11,9 @@ mv gstreamer $RTMIPDIR/cameras/gstreamer/
 cp manifest.json $RTMIPDIR/cameras/gstreamer/
 ```
 
-Or from the package [cameras-gstreamer.yaml]
+Where `$RTMIPDIR` usually is a `/srv/rtmip`.
+
+Or from the package [cameras-gstreamer.yaml].
 
 ## Requirements
 
