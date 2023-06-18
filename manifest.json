@@ -1,0 +1,17 @@
+{
+  "exec": "./gstreamer",
+
+  "transport": "stdout",
+  "serialize": "mjpeg",
+
+  "support": {
+		"addr":"rtsp://",
+    "archive": "*"
+  },
+
+  "variables": [
+		{ "name": "framerate", "default": "5", "label": "Frame Rate", "type":"number" },
+		{ "name": "desc", "value": "Decoding the RTSP stream using gstreamer, has a low latency. GStreamer must be installed independently.", "readonly": true, "system": true, "type":"hidden"}
+	]
+
+}
