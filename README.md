@@ -1,4 +1,4 @@
-# Gstremer cameras module
+# Gstreamer cameras module
 
 Returns frames from rtsp stream to the stdout.
 
@@ -11,7 +11,7 @@ mv gstreamer $RTMIPDIR/cameras/gstreamer/
 cp manifest.json $RTMIPDIR/cameras/gstreamer/
 ```
 
-Or from the package [cameras-gstreamer.yaml](https://github.com/neirolis/repository/blob/master/modules/cameras-gstreamer.yaml)
+Or from the package [cameras-gstreamer.yaml]
 
 ## Requirements
 
